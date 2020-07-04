@@ -1,6 +1,6 @@
 # projet(methode par arbre)
 
-#-------------------- partie 1 donnes synthétique  -----------
+#-------------------- partie 1 donnes synthÃ©tique  -----------
 
 rm(list=ls())
 data <- read.table(choose.files(), header=TRUE)
@@ -70,7 +70,7 @@ contour(X1, X2, matrix(as.numeric(y_gridMax), length(X1), length(X2)), add = TRU
 points(grid_set, pch = '.', col = ifelse(y_gridMax == 1, 'springgreen3', 'tomato'))
 points(data[,-1], pch = 21, bg = ifelse(data$y == 1, 'green4', 'red3'))
 
-# -----------  partie 2 Reconnaissance automatique de caractères manuscrits  ------
+# -----------  partie 2 Reconnaissance automatique de caractÃ¨res manuscrits  ------
 
 zip_train = read.table(choose.files(), header=TRUE)
 zip_test = read.table(choose.files(), header=TRUE)
